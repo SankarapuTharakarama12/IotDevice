@@ -8,7 +8,7 @@ namespace IotDevice.Repository
     public class IotDevice
     {
         public static RegistryManager registryManager;
-        private static string connectionString="HostName=deepak-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=pbwmrWFroJU4Tz5sytqWcpb+aW3fHvHx7c+O369SzeQ=";
+        private static string connectionString="HostName=iothubfeb06.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=He5TUZjN5XaESH7sFARB+jde5Osy92a0WyElBitulsg=";
         //static Device device;
         public static async Task AddDeviceAsync(string deviceName)
         {
